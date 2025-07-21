@@ -1,4 +1,5 @@
 🚀 ProfilePilot AI
+
 Your AI-powered career coach for landing your dream tech job.
 
 ProfilePilot AI helps developers and tech professionals get instant, actionable feedback on their professional profiles. By analyzing a user's GitHub, skills, and projects, our application provides a "Job Readiness Score," tailored project suggestions, and a personalized weekly/monthly roadmap for improvement.
