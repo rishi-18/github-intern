@@ -13,11 +13,21 @@ const navItems = [{label:"Home",href:'/'},
 const NavItems = () => {
     const pathname = usePathname();
 
-
   return (
-    <nav className='flex items-center gap-4'>
+    <nav className='flex items-center gap-6'>
         {navItems.map(({label,href})=>(
-            <Link href={href} key={label} className={cn(pathname===href && 'text-primary font-semibold')}>{label}</Link>
+            <Link
+              href={href}
+              key={label}
+              className={cn(
+                'transition-colors px-3 py-1 rounded-md',
+                pathname===href
+                  ? 'text-accent-secondary font-semibold shadow-[0_0_8px_0_var(--accent-secondary)]'
+                  : 'text-secondary hover:text-accent-secondary hover:shadow-[0_0_8px_0_var(--accent-secondary)]'
+              )}
+            >
+              {label}
+            </Link>
         ))}
     </nav>
   )

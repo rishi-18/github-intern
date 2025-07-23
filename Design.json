@@ -1,0 +1,109 @@
+{
+    "designSystemProfile": {
+      "themeName": "Opal",
+      "overallStyle": {
+        "theme": "Dark",
+        "aesthetic": "Modern, sleek, futuristic",
+        "primaryVisualMotif": "Glassmorphism, gradients, and glowing effects"
+      },
+      "colorPalette": {
+        "background": {
+          "primary": "#111113",
+          "card": "rgba(28, 28, 32, 0.6)"
+        },
+        "text": {
+          "primary": "#FFFFFF",
+          "secondary": "#A0A0A0",
+          "accent": "#C77DFF"
+        },
+        "accent": {
+          "primary": "#8A2BE2",
+          "secondary": "#C77DFF",
+          "gradient": "linear-gradient(135deg, #8A2BE2, #C77DFF)"
+        },
+        "interactive": {
+          "buttonBackground": "rgba(255, 255, 255, 0.1)",
+          "buttonHover": "rgba(255, 255, 255, 0.2)"
+        }
+      },
+      "typography": {
+        "fontFamily": "Inter, sans-serif",
+        "headings": {
+          "h1": {
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "color": "#FFFFFF"
+          },
+          "h2": {
+            "fontSize": "24px",
+            "fontWeight": "600",
+            "color": "#FFFFFF"
+          }
+        },
+        "body": {
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "#A0A0A0"
+        },
+        "labels": {
+          "fontSize": "12px",
+          "fontWeight": "500",
+          "color": "#FFFFFF"
+        }
+      },
+      "layout": {
+        "grid": "Flexible grid system",
+        "spacing": "Generous use of padding and margins for a spacious feel",
+        "alignment": "Left-aligned text with centered elements in cards"
+      },
+      "components": {
+        "card": {
+          "style": "Glassmorphism",
+          "backgroundColor": "rgba(28, 28, 32, 0.6)",
+          "borderRadius": "16px",
+          "border": "1px solid rgba(255, 255, 255, 0.1)",
+          "boxShadow": "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+          "backdropFilter": "blur(10px)"
+        },
+        "button": {
+          "style": "Subtle and clean",
+          "backgroundColor": "rgba(255, 255, 255, 0.1)",
+          "borderRadius": "8px",
+          "padding": "12px 24px",
+          "icon": {
+            "color": "#FFFFFF",
+            "size": "18px"
+          }
+        },
+        "profileWidget": {
+          "avatar": {
+            "size": "80px",
+            "shape": "circle",
+            "border": "2px solid #C77DFF"
+          },
+          "name": {
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "color": "#FFFFFF"
+          },
+          "title": {
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#A0A0A0"
+          }
+        },
+        "charts": {
+          "style": "Minimalist bar chart",
+          "barColor": "#8A2BE2",
+          "backgroundColor": "transparent"
+        }
+      },
+      "iconography": {
+        "style": "Line icons",
+        "color": "#A0A0A0",
+        "activeColor": "#FFFFFF",
+        "size": "24px"
+      }
+    }
+  }
+  
